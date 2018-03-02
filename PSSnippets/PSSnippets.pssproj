@@ -25,9 +25,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Code\jquery-1.10.1.min.js" />
+    <Content Include="Code\jquery.dataTables.min.js" />
+    <Content Include="data\Servers.xml" />
+    <Content Include="DCC_vCenters.hta" />
+    <Content Include="images\loading.gif" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Script.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="data\" />
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

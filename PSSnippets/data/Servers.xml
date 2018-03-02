@@ -1,0 +1,12 @@
+<servers>
+    <server index="1">
+      <Host_Name>testHost</Host_Name>
+      <IDC_Site>SL7</IDC_Site>
+      <Notes></Notes>
+      <PowerCLI></PowerCLI>
+      <PowerGUI></PowerGUI>
+      <Version></Version>
+      <Web_Access></Web_Access>
+      <vSphere_Client></vSphere_Client>
+    </server>
+</servers>
